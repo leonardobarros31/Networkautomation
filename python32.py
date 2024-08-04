@@ -1,7 +1,7 @@
 import getpass #biblioteca para solicitar senha ao usuário sem armazena-la
 import telnetlib
 
-HOST = "192.168.122.71" #entra com ip adress do roteador
+HOST = "192.168.122.72" #entra com ip adress do roteador
 user = input("Enter your remote account: ")
 password = getpass.getpass() #solicita ao usuário para entrar com senha
 
